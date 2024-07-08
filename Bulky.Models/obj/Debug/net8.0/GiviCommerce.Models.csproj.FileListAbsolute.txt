@@ -9,3 +9,4 @@ C:\Users\cheli\source\repos\BulkyWeb\Bulky.Models\obj\Debug\net8.0\GiviCommerce.
 C:\Users\cheli\source\repos\BulkyWeb\Bulky.Models\obj\Debug\net8.0\refint\GiviCommerce.Models.dll
 C:\Users\cheli\source\repos\BulkyWeb\Bulky.Models\obj\Debug\net8.0\GiviCommerce.Models.pdb
 C:\Users\cheli\source\repos\BulkyWeb\Bulky.Models\obj\Debug\net8.0\ref\GiviCommerce.Models.dll
+C:\Users\cheli\source\repos\BulkyWeb\Bulky.Models\obj\Debug\net8.0\GiviCommerce.Models.sourcelink.json

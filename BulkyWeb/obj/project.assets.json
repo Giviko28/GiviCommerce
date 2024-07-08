@@ -2769,7 +2769,10 @@
         },
         "runtime": {
           "bin/placeholder/GiviCommerce.Models.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },

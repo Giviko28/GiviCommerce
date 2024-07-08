@@ -18,9 +18,25 @@ namespace GiviCommerce.DataAccess.Repository
             _db = db;
         }
 
-        public void Update(Product product)
+        public void Update(Product obj)
         {
-            _db.Products.Update(product);
+            var product = _db.Products.FirstOrDefault(p => p.Id == obj.Id);
+            if (product is not null)
+            {
+                product.ISBN = obj.ISBN;
+                product.ListPrice = obj.ListPrice;
+                product.Price = obj.Price;
+                product.Price100 = obj.Price100;
+                product.Author = obj.Author;
+                product.Description = obj.Description;
+                product.CategoryId = obj.CategoryId;
+                product.Price50 = obj.Price50;
+                product.Title = obj.Title;
+                if (obj.ImageURL is not null)
+                {
+                    product.ImageURL = obj.ImageURL;
+                }
+            }
         }
 
     }

@@ -254,3 +254,5 @@ C:\Users\cheli\source\repos\BulkyWeb\BulkyWeb\obj\Debug\net8.0\refint\GiviCommer
 C:\Users\cheli\source\repos\BulkyWeb\BulkyWeb\obj\Debug\net8.0\GiviCommerce.pdb
 C:\Users\cheli\source\repos\BulkyWeb\BulkyWeb\obj\Debug\net8.0\GiviCommerce.genruntimeconfig.cache
 C:\Users\cheli\source\repos\BulkyWeb\BulkyWeb\obj\Debug\net8.0\ref\GiviCommerce.dll
+C:\Users\cheli\source\repos\BulkyWeb\BulkyWeb\obj\Debug\net8.0\GiviCommerce.sourcelink.json
+C:\Users\cheli\source\repos\BulkyWeb\BulkyWeb\obj\Debug\net8.0\GiviCommerce.MvcApplicationPartsAssemblyInfo.cs
