@@ -5,7 +5,9 @@ C:\Users\cheli\source\repos\BulkyWeb\Bulky.Utility\obj\Debug\net8.0\GiviCommerce
 C:\Users\cheli\source\repos\BulkyWeb\Bulky.Utility\obj\Debug\net8.0\GiviCommerce.Utility.AssemblyInfoInputs.cache
 C:\Users\cheli\source\repos\BulkyWeb\Bulky.Utility\obj\Debug\net8.0\GiviCommerce.Utility.AssemblyInfo.cs
 C:\Users\cheli\source\repos\BulkyWeb\Bulky.Utility\obj\Debug\net8.0\GiviCommerce.Utility.csproj.CoreCompileInputs.cache
+C:\Users\cheli\source\repos\BulkyWeb\Bulky.Utility\obj\Debug\net8.0\GiviCommerce.Utility.sourcelink.json
 C:\Users\cheli\source\repos\BulkyWeb\Bulky.Utility\obj\Debug\net8.0\GiviCommerce.Utility.dll
 C:\Users\cheli\source\repos\BulkyWeb\Bulky.Utility\obj\Debug\net8.0\refint\GiviCommerce.Utility.dll
 C:\Users\cheli\source\repos\BulkyWeb\Bulky.Utility\obj\Debug\net8.0\GiviCommerce.Utility.pdb
 C:\Users\cheli\source\repos\BulkyWeb\Bulky.Utility\obj\Debug\net8.0\ref\GiviCommerce.Utility.dll
+C:\Users\cheli\source\repos\BulkyWeb\Bulky.Utility\obj\Debug\net8.0\GiviCommerce.Utility.csproj.AssemblyReference.cache

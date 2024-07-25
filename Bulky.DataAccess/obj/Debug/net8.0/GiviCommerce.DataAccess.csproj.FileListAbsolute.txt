@@ -9,10 +9,10 @@ C:\Users\cheli\source\repos\BulkyWeb\Bulky.DataAccess\obj\Debug\net8.0\GiviComme
 C:\Users\cheli\source\repos\BulkyWeb\Bulky.DataAccess\obj\Debug\net8.0\GiviCommerce.DataAccess.AssemblyInfoInputs.cache
 C:\Users\cheli\source\repos\BulkyWeb\Bulky.DataAccess\obj\Debug\net8.0\GiviCommerce.DataAccess.AssemblyInfo.cs
 C:\Users\cheli\source\repos\BulkyWeb\Bulky.DataAccess\obj\Debug\net8.0\GiviCommerce.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\cheli\source\repos\BulkyWeb\Bulky.DataAccess\obj\Debug\net8.0\GiviCommerce.DataAccess.sourcelink.json
 C:\Users\cheli\source\repos\BulkyWeb\Bulky.DataAccess\obj\Debug\net8.0\GiviComm.02B83DDB.Up2Date
 C:\Users\cheli\source\repos\BulkyWeb\Bulky.DataAccess\obj\Debug\net8.0\GiviCommerce.DataAccess.dll
 C:\Users\cheli\source\repos\BulkyWeb\Bulky.DataAccess\obj\Debug\net8.0\refint\GiviCommerce.DataAccess.dll
 C:\Users\cheli\source\repos\BulkyWeb\Bulky.DataAccess\obj\Debug\net8.0\GiviCommerce.DataAccess.pdb
 C:\Users\cheli\source\repos\BulkyWeb\Bulky.DataAccess\obj\Debug\net8.0\GiviCommerce.DataAccess.genruntimeconfig.cache
 C:\Users\cheli\source\repos\BulkyWeb\Bulky.DataAccess\obj\Debug\net8.0\ref\GiviCommerce.DataAccess.dll
-C:\Users\cheli\source\repos\BulkyWeb\Bulky.DataAccess\obj\Debug\net8.0\GiviCommerce.DataAccess.sourcelink.json
