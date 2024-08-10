@@ -16,6 +16,7 @@ namespace GiviCommerce.DataAccess.Data
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+        public DbSet<Company> Companies { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -26,6 +27,12 @@ namespace GiviCommerce.DataAccess.Data
                 new Category { Id = 2, Name = "SciFi", DisplayOrder = 2 },
                 new Category { Id = 3, Name = "Action", DisplayOrder = 3 }
                 );
+
+            modelBuilder.Entity<Company>().HasData(
+               new Company { Id = 1, Name = "TBC Bank", StreetAddress = "Bruh street 1", City = "Tbilisi", PostalCode="0160", PhoneNumber = "+995-577-35-53-21", State = "Tbilisi" },
+               new Company { Id = 2, Name = "Bank of Georgia", StreetAddress = "Bruh street 2", City = "Tbilisi", PostalCode = "0160", PhoneNumber = "+995-577-36-15-21", State = "Tbilisi" },
+               new Company { Id = 3, Name = "TBC Bank", StreetAddress = "Bruh street 4", City = "Tbilisi", PostalCode = "0160", PhoneNumber = "+995-577-35-53-51", State = "Tbilisi" }
+               );
 
 
             modelBuilder.Entity<Product>().HasData(

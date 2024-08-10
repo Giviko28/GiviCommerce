@@ -4,6 +4,7 @@ using GiviCommerce.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GiviCommerce.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240810190918_AddCompanyTable")]
+    partial class AddCompanyTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -93,38 +96,6 @@ namespace GiviCommerce.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Companies");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            City = "Tbilisi",
-                            Name = "TBC Bank",
-                            PhoneNumber = "+995-577-35-53-21",
-                            PostalCode = "0160",
-                            State = "Tbilisi",
-                            StreetAddress = "Bruh street 1"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            City = "Tbilisi",
-                            Name = "Bank of Georgia",
-                            PhoneNumber = "+995-577-36-15-21",
-                            PostalCode = "0160",
-                            State = "Tbilisi",
-                            StreetAddress = "Bruh street 2"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            City = "Tbilisi",
-                            Name = "TBC Bank",
-                            PhoneNumber = "+995-577-35-53-51",
-                            PostalCode = "0160",
-                            State = "Tbilisi",
-                            StreetAddress = "Bruh street 4"
-                        });
                 });
 
             modelBuilder.Entity("GiviCommerce.Models.Product", b =>

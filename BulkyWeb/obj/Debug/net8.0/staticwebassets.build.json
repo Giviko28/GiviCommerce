@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/JtTRdXcndnaPIkEHuw/w+yV67B22H/B29qVQRlB/6Q=",
+  "Hash": "HsL5X6pmeh7yTrWmnqHg/G4YLAOKsA4xtxjDiCPawc4=",
   "Source": "GiviCommerce",
   "BasePath": "_content/GiviCommerce",
   "Mode": "Default",
@@ -1288,6 +1288,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\4aa7976e-a3e4-4789-9538-3b6fecf4802d.png"
+    },
+    {
+      "Identity": "C:\\Users\\cheli\\source\\repos\\BulkyWeb\\BulkyWeb\\wwwroot\\images\\product\\6fdc197c-e26b-4a91-87e3-212318f7ad13.jpeg",
+      "SourceId": "GiviCommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cheli\\source\\repos\\BulkyWeb\\BulkyWeb\\wwwroot\\",
+      "BasePath": "_content/GiviCommerce",
+      "RelativePath": "images/product/6fdc197c-e26b-4a91-87e3-212318f7ad13.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\6fdc197c-e26b-4a91-87e3-212318f7ad13.jpeg"
     },
     {
       "Identity": "C:\\Users\\cheli\\source\\repos\\BulkyWeb\\BulkyWeb\\wwwroot\\images\\product\\a22f2df7-6303-4ca5-aa2e-2eb10d6c6123.png",
