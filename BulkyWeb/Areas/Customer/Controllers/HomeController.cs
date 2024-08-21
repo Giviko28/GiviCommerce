@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using GiviCommerce.Models;
 using GiviCommerce.DataAccess.Repository.IRepository;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace GiviCommerce.Areas.Customer.Controllers
 {
@@ -27,8 +29,34 @@ namespace GiviCommerce.Areas.Customer.Controllers
         public IActionResult Details(int productId)
         {
             Product product = _unitOfWork.Product.Get((p) => p.Id == productId, includeProperties: "Category");
+            ShoppingCart shoppingCart = new() { Product = product, ProductId = product.Id, Count = 1 };
+            return View(shoppingCart);
+        }
+        [HttpPost]
+        [Authorize]
+        public IActionResult Details(ShoppingCart shoppingCart)
+        {
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
+            shoppingCart.ApplicationUserId = userId;
 
-            return View(product);
+            ShoppingCart cartFromDb = _unitOfWork.ShoppingCart.Get(s => s.ApplicationUserId == userId &&
+            s.ProductId == shoppingCart.ProductId);
+            if (cartFromDb is not null)
+            {
+                cartFromDb.Count += shoppingCart.Count;
+                _unitOfWork.ShoppingCart.Update(cartFromDb);
+            }
+            else
+            {
+                _unitOfWork.ShoppingCart.Add(shoppingCart);
+            }
+
+            _unitOfWork.Save();
+
+            TempData["Success"] = "Cart Updated Succesfully";
+
+            return RedirectToAction(nameof(Index));
         }
 
         public IActionResult Privacy()

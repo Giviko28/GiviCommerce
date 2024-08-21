@@ -7,8 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\js\company.js" />
-    <Content Remove="wwwroot\js\product.js" />
+    <Content Remove="wwwroot\js\order.js" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,6 +25,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
+    <PackageReference Include="Stripe.net" Version="45.7.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -38,7 +38,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Areas\Customer\Views\Cart\Summary.cshtml" />
     <None Include="wwwroot\js\company.js" />
+    <None Include="wwwroot\js\order.js" />
     <None Include="wwwroot\js\product.js" />
   </ItemGroup>
 

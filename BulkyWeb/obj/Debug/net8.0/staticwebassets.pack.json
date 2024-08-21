@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\cheli\\source\\repos\\BulkyWeb\\BulkyWeb\\wwwroot\\images\\book.png",
+      "PackagePath": "staticwebassets\\images\\book.png"
+    },
+    {
+      "Id": "C:\\Users\\cheli\\source\\repos\\BulkyWeb\\BulkyWeb\\wwwroot\\images\\lawn_leaf.jpg",
+      "PackagePath": "staticwebassets\\images\\lawn_leaf.jpg"
+    },
+    {
       "Id": "C:\\Users\\cheli\\source\\repos\\BulkyWeb\\BulkyWeb\\wwwroot\\images\\product\\0edb2d8e-f362-4de4-89cc-a5bede4484b6.png",
       "PackagePath": "staticwebassets\\images\\product\\0edb2d8e-f362-4de4-89cc-a5bede4484b6.png"
     },
@@ -39,6 +47,14 @@
     {
       "Id": "C:\\Users\\cheli\\source\\repos\\BulkyWeb\\BulkyWeb\\wwwroot\\images\\product\\edcfec23-4907-4dff-925a-51c63f40ec7e.png",
       "PackagePath": "staticwebassets\\images\\product\\edcfec23-4907-4dff-925a-51c63f40ec7e.png"
+    },
+    {
+      "Id": "C:\\Users\\cheli\\source\\repos\\BulkyWeb\\BulkyWeb\\wwwroot\\js\\company.js",
+      "PackagePath": "staticwebassets\\js\\company.js"
+    },
+    {
+      "Id": "C:\\Users\\cheli\\source\\repos\\BulkyWeb\\BulkyWeb\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
       "Id": "C:\\Users\\cheli\\source\\repos\\BulkyWeb\\BulkyWeb\\wwwroot\\js\\site.js",
