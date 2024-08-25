@@ -4,6 +4,8 @@ using GiviCommerce.Models;
 using GiviCommerce.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
+using GiviCommerce.Utility;
+using Microsoft.AspNetCore.Http;
 
 namespace GiviCommerce.Areas.Customer.Controllers
 {
@@ -21,6 +23,8 @@ namespace GiviCommerce.Areas.Customer.Controllers
 
         public IActionResult Index()
         {
+          
+
             IEnumerable<Product> productList = _unitOfWork.Product.GetAll();
             
             return View(productList);
@@ -46,13 +50,16 @@ namespace GiviCommerce.Areas.Customer.Controllers
             {
                 cartFromDb.Count += shoppingCart.Count;
                 _unitOfWork.ShoppingCart.Update(cartFromDb);
+                _unitOfWork.Save();
             }
             else
             {
                 _unitOfWork.ShoppingCart.Add(shoppingCart);
+                _unitOfWork.Save();
             }
 
-            _unitOfWork.Save();
+            HttpContext.Session.SetInt32(SD.SessionCart,
+                    _unitOfWork.ShoppingCart.GetAll(s => s.ApplicationUserId == userId).Count());
 
             TempData["Success"] = "Cart Updated Succesfully";
 

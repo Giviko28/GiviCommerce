@@ -197,10 +197,12 @@ namespace GiviCommerce.Areas.Customer.Controllers
         }
         public IActionResult Minus(int cartId)
         {
-            var shoppingCart = _unitOfWork.ShoppingCart.Get(s => s.Id == cartId);
+            var shoppingCart = _unitOfWork.ShoppingCart.Get(s => s.Id == cartId, tracked: true);
             if (shoppingCart.Count <= 1)
             {
                 _unitOfWork.ShoppingCart.Remove(shoppingCart);
+                HttpContext.Session.SetInt32(SD.SessionCart,
+                _unitOfWork.ShoppingCart.GetAll(sc => sc.ApplicationUserId == shoppingCart.ApplicationUserId).Count() - 1);
             }
             else
             {
@@ -212,7 +214,9 @@ namespace GiviCommerce.Areas.Customer.Controllers
         }
         public IActionResult Remove(int cartId)
         {
-            var shoppingCart = _unitOfWork.ShoppingCart.Get(s => s.Id == cartId);
+            var shoppingCart = _unitOfWork.ShoppingCart.Get(s => s.Id == cartId, tracked: true);
+            HttpContext.Session.SetInt32(SD.SessionCart,
+             _unitOfWork.ShoppingCart.GetAll(sc => sc.ApplicationUserId == shoppingCart.ApplicationUserId).Count()-1);
             _unitOfWork.ShoppingCart.Remove(shoppingCart);
             _unitOfWork.Save();
             return RedirectToAction(nameof(Index));
