@@ -35,6 +35,9 @@
             "projectReferences": {
               "C:\\Users\\cheli\\source\\repos\\BulkyWeb\\Bulky.Models\\GiviCommerce.Models.csproj": {
                 "projectPath": "C:\\Users\\cheli\\source\\repos\\BulkyWeb\\Bulky.Models\\GiviCommerce.Models.csproj"
+              },
+              "C:\\Users\\cheli\\source\\repos\\BulkyWeb\\Bulky.Utility\\GiviCommerce.Utility.csproj": {
+                "projectPath": "C:\\Users\\cheli\\source\\repos\\BulkyWeb\\Bulky.Utility\\GiviCommerce.Utility.csproj"
               }
             }
           }

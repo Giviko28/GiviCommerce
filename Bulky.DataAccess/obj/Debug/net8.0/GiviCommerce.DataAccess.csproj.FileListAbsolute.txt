@@ -16,3 +16,5 @@ C:\Users\cheli\source\repos\BulkyWeb\Bulky.DataAccess\obj\Debug\net8.0\refint\Gi
 C:\Users\cheli\source\repos\BulkyWeb\Bulky.DataAccess\obj\Debug\net8.0\GiviCommerce.DataAccess.pdb
 C:\Users\cheli\source\repos\BulkyWeb\Bulky.DataAccess\obj\Debug\net8.0\GiviCommerce.DataAccess.genruntimeconfig.cache
 C:\Users\cheli\source\repos\BulkyWeb\Bulky.DataAccess\obj\Debug\net8.0\ref\GiviCommerce.DataAccess.dll
+C:\Users\cheli\source\repos\BulkyWeb\Bulky.DataAccess\bin\Debug\net8.0\GiviCommerce.Utility.dll
+C:\Users\cheli\source\repos\BulkyWeb\Bulky.DataAccess\bin\Debug\net8.0\GiviCommerce.Utility.pdb

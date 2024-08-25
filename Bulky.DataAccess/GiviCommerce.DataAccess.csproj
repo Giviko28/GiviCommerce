@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Bulky.Models\GiviCommerce.Models.csproj" />
+    <ProjectReference Include="..\Bulky.Utility\GiviCommerce.Utility.csproj" />
   </ItemGroup>
 
 </Project>
