@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GiviCommerce")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bd3f7937903cf46b9a620fea4026c61e2fdd76d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fad02cb01d6a10429309dbb205447567edde5e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("GiviCommerce")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GiviCommerce")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

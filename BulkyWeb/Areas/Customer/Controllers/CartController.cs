@@ -121,7 +121,7 @@ namespace GiviCommerce.Areas.Customer.Controllers
             // Since this is a regular customer, we need to capture payment via stripe
 			if (applicationUser.CompanyId.GetValueOrDefault() == 0)
 			{
-                var domain = "http://localhost:5067/";
+                var domain = Request.Scheme + "://" + Request.Host.Value + "/";
                 var options = new Stripe.Checkout.SessionCreateOptions
                 {
                     SuccessUrl = domain + $"customer/cart/OrderConfirmation?id={ShoppingCartVM.OrderHeader.Id}",

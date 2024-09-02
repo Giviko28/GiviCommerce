@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
+      "Id": "C:\\Users\\cheli\\source\\repos\\BulkyWeb\\BulkyWeb\\wwwroot\\js\\roleManagement.js",
+      "PackagePath": "staticwebassets\\js\\roleManagement.js"
+    },
+    {
       "Id": "C:\\Users\\cheli\\source\\repos\\BulkyWeb\\BulkyWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

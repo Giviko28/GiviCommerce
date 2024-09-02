@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WNdjn0c8vUzfXMFJJsJCE0EDr+4SCRilO2bLTH0stx0=",
+  "Hash": "ByAItk2Lu5IAsa2BqfjSN74bUn6WFfoooxjHitT69tY=",
   "Source": "GiviCommerce",
   "BasePath": "_content/GiviCommerce",
   "Mode": "Default",
@@ -1440,6 +1440,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\product.js"
+    },
+    {
+      "Identity": "C:\\Users\\cheli\\source\\repos\\BulkyWeb\\BulkyWeb\\wwwroot\\js\\roleManagement.js",
+      "SourceId": "GiviCommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cheli\\source\\repos\\BulkyWeb\\BulkyWeb\\wwwroot\\",
+      "BasePath": "_content/GiviCommerce",
+      "RelativePath": "js/roleManagement.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\roleManagement.js"
     },
     {
       "Identity": "C:\\Users\\cheli\\source\\repos\\BulkyWeb\\BulkyWeb\\wwwroot\\js\\site.js",

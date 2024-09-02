@@ -56,7 +56,7 @@ namespace GiviCommerce.DataAccess.DbInitializer
                     State = "IL",
                     PostalCode = "0460",
                     City = "Chicago"
-                }, "test").GetAwaiter().GetResult();
+                }, "Admini123!").GetAwaiter().GetResult();
 
                 ApplicationUser user = _db.ApplicationUsers.FirstOrDefault(u => u.Email == "admini@gmail.com");
                 _userManager.AddToRoleAsync(user, SD.Role_Admin).GetAwaiter().GetResult();
