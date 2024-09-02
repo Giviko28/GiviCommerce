@@ -32,10 +32,11 @@ namespace GiviCommerce.DataAccess.Repository
                 product.CategoryId = obj.CategoryId;
                 product.Price50 = obj.Price50;
                 product.Title = obj.Title;
-                if (obj.ImageURL is not null)
-                {
-                    product.ImageURL = obj.ImageURL;
-                }
+                product.ProductImages = obj.ProductImages;
+                //if (obj.ImageURL is not null)
+                //{
+                //    product.ImageURL = obj.ImageURL;
+                //}
             }
         }
 

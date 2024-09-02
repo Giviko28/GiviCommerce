@@ -25,14 +25,14 @@ namespace GiviCommerce.Areas.Customer.Controllers
         {
           
 
-            IEnumerable<Product> productList = _unitOfWork.Product.GetAll();
+            IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category,ProductImages");
             
             return View(productList);
         }
 
         public IActionResult Details(int productId)
         {
-            Product product = _unitOfWork.Product.Get((p) => p.Id == productId, includeProperties: "Category");
+            Product product = _unitOfWork.Product.Get((p) => p.Id == productId, includeProperties: "Category,ProductImages");
             ShoppingCart shoppingCart = new() { Product = product, ProductId = product.Id, Count = 1 };
             return View(shoppingCart);
         }
